@@ -63,6 +63,7 @@
   --accent-20: rgba(183, 110, 121, 0.20);
   --accent-25: rgba(183, 110, 121, 0.25);
   --warm-4: rgba(212, 165, 116, 0.03);
+  --warm-8: rgba(212, 165, 116, 0.08);
   --warm-15: rgba(212, 165, 116, 0.15);
 
   /* Transitions */
@@ -131,10 +132,6 @@ ul {
 .section--cream {
   background: var(--bg-cream);
   color: var(--text-primary);
-}
-
-.section--charcoal {
-  background: var(--bg-tertiary);
 }
 
 /* ---------- Subtle Pattern Overlays ---------- */
@@ -966,6 +963,13 @@ ul {
   line-height: 1.6;
 }
 
+.solution-point__outcome {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
 /* ---------- Tech Cards ---------- */
 .tech-grid {
   display: grid;
@@ -1207,6 +1211,116 @@ ul {
   color: var(--text-primary);
 }
 
+/* ---------- Competitive Landscape ---------- */
+.landscape-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.landscape-card {
+  background: var(--bg-card);
+  border: var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all 0.4s var(--ease-smooth);
+  box-shadow: var(--card-shadow);
+}
+
+.landscape-card:hover {
+  border-color: var(--card-hover-border);
+  box-shadow: var(--card-hover-shadow);
+  transform: translateY(-4px);
+}
+
+.landscape-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 28px 16px;
+}
+
+.landscape-card__name {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.landscape-card__tag {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  background: var(--warm-8);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.landscape-card__what,
+.landscape-card__gap {
+  padding: 16px 28px;
+}
+
+.landscape-card__what {
+  border-top: 1px solid var(--warm-8);
+}
+
+.landscape-card__gap {
+  background: rgba(212, 165, 116, 0.05);
+  border-top: 1px solid rgba(212, 165, 116, 0.1);
+}
+
+.landscape-card__what h4,
+.landscape-card__gap h4 {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.landscape-card__what h4 {
+  color: var(--text-primary);
+}
+
+.landscape-card__gap h4 {
+  color: var(--accent-warm);
+}
+
+.landscape-card__what p,
+.landscape-card__gap p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.landscape-differentiator {
+  margin-top: 48px;
+  padding: 36px 40px;
+  background: linear-gradient(135deg, var(--accent-6), var(--warm-4));
+  border: 1px solid var(--accent-12);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.landscape-differentiator h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent-deep);
+  margin-bottom: 12px;
+}
+
+.landscape-differentiator p {
+  font-size: 0.95rem;
+  color: var(--text-slate);
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* ---------- Market Opportunity ---------- */
 .market-stats {
   display: grid;
@@ -1231,12 +1345,6 @@ ul {
   color: var(--accent);
   letter-spacing: -1px;
   margin-bottom: 4px;
-}
-
-.market-stat__suffix {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--accent-hover);
 }
 
 .market-stat__label {
@@ -1597,6 +1705,7 @@ ul {
 #solution,
 #tech,
 #compliance,
+#landscape,
 #market,
 #policy,
 #biodome,
@@ -1671,6 +1780,10 @@ ul {
   .policy-grid,
   .compliance-grid {
     grid-template-columns: 1fr;
+  }
+
+  .landscape-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .market-stats {
@@ -1796,7 +1909,10 @@ ul {
   .biodome-pillar,
   .compliance-card__header,
   .compliance-card__challenge,
-  .compliance-card__solution {
+  .compliance-card__solution,
+  .landscape-card__header,
+  .landscape-card__what,
+  .landscape-card__gap {
     padding: 28px 24px;
   }
 
@@ -1879,5 +1995,41 @@ ul {
   .hero__mini-stats {
     flex-direction: column;
     gap: 16px;
+  }
+
+  /* Landscape cards stack */
+  .landscape-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .landscape-card__header {
+    padding: 20px 20px 12px;
+  }
+
+  .landscape-card__what,
+  .landscape-card__gap {
+    padding: 14px 20px;
+  }
+
+  .landscape-differentiator {
+    padding: 28px 20px;
+  }
+
+  .landscape-differentiator h3 {
+    font-size: 1.1rem;
+  }
+
+  .landscape-differentiator p {
+    font-size: 0.85rem;
+  }
+
+  /* Solution outcomes wrap */
+  .solution-point__outcome {
+    font-size: 0.75rem;
+  }
+
+  /* Biodome columns */
+  .biodome-pillar {
+    padding: 28px 20px;
   }
 }
