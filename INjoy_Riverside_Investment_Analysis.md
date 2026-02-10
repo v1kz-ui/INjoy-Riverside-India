@@ -167,7 +167,95 @@ InjoyOS processes continuous biometric data — making regulatory compliance not
 
 ---
 
-## 6. Competitive Landscape
+## 6. Competitive Operator Gap Matrix — No Luxury Wellness Exists
+
+Every current Indian senior care operator is providing **basic housing + basic healthcare**. None have a luxury wellness offering. This is the single largest whitespace in the market.
+
+### Full Capability Comparison
+
+| Capability | Antara (Max) | Columbia Pacific | Ashiana Housing | Primus Life | **inJOY Riverside** |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **HOUSING** | | | | | |
+| Independent living units | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Assisted living / care homes | ✅ | ❌ | Partnered | ✅ | ✅ |
+| Memory care | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Senior-friendly design (grab bars, anti-slip) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Biophilic architecture / circadian lighting | ❌ | ❌ | ❌ | ❌ | ✅ |
+| **HEALTHCARE** | | | | | |
+| On-site nurse / doctor on call | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Emergency response system | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Regular health check-ups | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Preventive care programs | ✅ | Basic | Basic | ✅ | ✅ |
+| Telehealth / virtual specialist | AGEasy app | 1mg partnership | ❌ | ❌ | ✅ Full InjoyOS |
+| **TECHNOLOGY** | | | | | |
+| Continuous wearable biometrics | ❌ | ❌ | ❌ | ❌ | ✅ |
+| AI predictive analytics | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Digital health twin | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Smart home IoT sensors | Basic | ❌ | ❌ | Alexa only | ✅ Ambient + AI |
+| Data sovereignty (DPDP Compliant) | Unknown | ❌ | ❌ | ❌ | ✅ Architected |
+| **WELLNESS — THE GAP** | | | | | |
+| Yoga / fitness center | ✅ Basic | ✅ Basic | ✅ Basic | ✅ Basic | ✅ Premium |
+| Nutritionist / dietician | Basic | Basic | Basic | ✅ | ✅ AI-personalized |
+| Regenerative food ecosystem | ❌ | ❌ | ❌ | ❌ | ✅ Aquaponic Biodome |
+| Longevity medicine | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Spa / hydrotherapy / recovery | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Personalized supplement protocols | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Sleep architecture optimization | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Cognitive fitness lab | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Emotional wellness (JEEP) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| **LIFESTYLE & LEGACY** | | | | | |
+| Social clubs / hobby activities | ✅ Basic | ✅ Basic | ✅ Basic | ✅ Basic | ✅ Moai tribes |
+| Innovation incubator / IP creation | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Media studio / content creation | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Intergenerational programs | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Culinary innovation lab | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Portfolio career / mentorship | ❌ | ❌ | ❌ | ❌ | ✅ |
+
+### The Verdict
+
+- **Antara** is a **basic healthcare + housing** play.
+- **Columbia Pacific** is a **US-imported amenity model**.
+- **Ashiana** is a **real estate developer**.
+- **Primus** has preventive intent but is **entirely manual**.
+
+**Nobody is doing luxury wellness.** inJOY sits alone in this quadrant.
+
+---
+
+## 7. Luxury Wellness Add-On Model — Path to ₹1,20,000/month
+
+Competitors charge ₹40,000–60,000/month for basic housing/care. inJOY's luxury wellness add-ons drive monthly rates to ₹1,20,000/person with high-margin services.
+
+### Pricing Architecture
+
+| Tier | What's Included | Monthly Rate |
+|---|---|---|
+| **Base Housing + Care** | Villa/apartment, meals, 24/7 nursing, emergency, housekeeping | ₹55,000 |
+| **InjoyOS Health Intelligence** | Continuous monitoring, AI predictive analytics, digital twin, family dashboard | +₹18,000 |
+| **Precision Wellness Suite** | Personalized supplements, sleep optimization, longevity tracking, health reports | +₹12,000 |
+| **Regenerative Nutrition** | Farm-to-fork meals, AI-personalized plans, therapeutic kitchen sessions | +₹10,000 |
+| **Recovery & Vitality** | Hydrotherapy, infrared sauna, cryotherapy, physiotherapy, breathwork | +₹12,000 |
+| **Cognitive Fitness** | Brain training, cognitive reserve building, memory architecture, JEEP tracking | +₹8,000 |
+| **Legacy & Purpose** | Media studio, IP creation, innovation lab, mentorship matching | +₹5,000 |
+| | **Total** | **₹1,20,000** |
+
+### Cost vs. Revenue Analysis
+
+| Add-On | Delivery Cost | Revenue | Margin |
+|---|---|---|---|
+| InjoyOS Health Intelligence | ₹3,000 | ₹18,000 | **83%** |
+| Precision Wellness Suite | ₹4,000 | ₹12,000 | **67%** |
+| Regenerative Nutrition | ₹6,000 | ₹10,000 | **40%** |
+| Recovery & Vitality | ₹4,500 | ₹12,000 | **63%** |
+| Cognitive Fitness | ₹2,000 | ₹8,000 | **75%** |
+| Legacy & Purpose | ₹1,500 | ₹5,000 | **70%** |
+| **Wellness Add-On Total** | **₹21,000** | **₹65,000** | **~68%** |
+
+**Key Insight:** Base housing is a low-margin commodity. The wellness layer (₹65k/mo) is high-margin (~68%) and has no competition.
+
+---
+
+## 8. Competitive Landscape Details
 
 ### India's Senior Care Market — Where the Gap Lives
 
@@ -186,7 +274,7 @@ Several credible players are entering the Indian senior care space — but **non
 
 ---
 
-## 7. Policy Tailwinds: Why India, Why Now
+## 9. Policy Tailwinds: Why India, Why Now
 
 The Government of India is actively building the regulatory and financial infrastructure to support senior care at scale. NITI Aayog's Four Pillars Framework:
 
@@ -199,7 +287,7 @@ The Government of India is actively building the regulatory and financial infras
 
 ---
 
-## 8. Proven Outcomes: Predictive Care Delivers Measurable Impact
+## 10. Proven Outcomes: Predictive Care Delivers Measurable Impact
 
 ### Headline Metric
 
@@ -221,7 +309,7 @@ The Government of India is actively building the regulatory and financial infras
 
 ---
 
-## 9. The Biodome: A Living Technology Ecosystem
+## 11. The Biodome: A Living Technology Ecosystem
 
 The Biodome integrates regenerative agriculture, culinary innovation, predictive health, and intellectual legacy into a single closed-loop system.
 
@@ -251,7 +339,7 @@ Biophilic single-level villas with circadian lighting, invisible assistive techn
 
 ---
 
-## 10. Development Roadmap
+## 12. Development Roadmap
 
 ### Phase 1: Foundation (2025)
 
@@ -295,7 +383,7 @@ Biophilic single-level villas with circadian lighting, invisible assistive techn
 
 ---
 
-## 11. The Ask
+## 13. The Ask
 
 We are curating a select cohort of **founding partners** — investors, academic institutions, and technology collaborators — to build India's first predictive, DPDP Act-compliant senior care ecosystem.
 
