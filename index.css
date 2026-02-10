@@ -1,6 +1,6 @@
 /* ============================================================
-   INjoy Riverside — India Investor & Tech Pitch
-   Design System — Rose Gold & White Luxury Edition (Refactored)
+   inJOY Riverside — India Investor & Tech Pitch
+   Design System — Rose Gold & White Luxury Edition (Optimized)
    ============================================================ */
 
 /* ---------- Google Fonts ---------- */
@@ -517,23 +517,26 @@ ul {
   color: var(--accent);
 }
 
-/* Shared icon container background */
+/* Shared icon container + rose gold tint */
 .crisis-card__icon,
 .policy-card__icon,
 .solution-point__icon,
 .biodome-pillar__icon {
-  background: var(--accent-8);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Emoji icons — rose gold tinted containers */
 .crisis-card__icon,
 .biodome-pillar__icon,
 .orbit-node {
   background: linear-gradient(135deg, var(--accent-8), var(--accent-12));
   border: 1px solid var(--accent-15);
+}
+
+.policy-card__icon,
+.solution-point__icon {
+  background: var(--accent-8);
 }
 
 /* ---------- Crisis Cards ---------- */
@@ -703,6 +706,12 @@ ul {
   box-shadow: 0 4px 16px var(--accent-6);
 }
 
+.orbit-node:nth-child(1) {
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
 .orbit-node:nth-child(2) {
   top: 10%;
   left: 50%;
@@ -719,12 +728,6 @@ ul {
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.orbit-node:nth-child(1) {
-  top: 50%;
-  left: 5%;
-  transform: translateY(-50%);
 }
 
 .solution-content {
@@ -796,7 +799,7 @@ ul {
   font-size: 1.4rem;
 }
 
-.tech-card__icon--saffron {
+.tech-card__icon--accent {
   background: var(--accent-8);
   color: var(--accent);
 }
@@ -886,7 +889,7 @@ ul {
 }
 
 .market-stat:hover {
-  box-shadow: 0 8px 30px var(--accent-6);
+  transform: translateY(-3px);
 }
 
 .market-stat__value {
@@ -1095,7 +1098,7 @@ ul {
 }
 
 .prediction-item:hover {
-  box-shadow: 0 8px 24px var(--accent-6);
+  transform: translateY(-2px);
 }
 
 .prediction-item__days {
@@ -1255,6 +1258,19 @@ ul {
 .footer__legal {
   display: flex;
   gap: 24px;
+}
+
+/* ---------- Render Performance ---------- */
+#crisis,
+#solution,
+#tech,
+#market,
+#policy,
+#biodome,
+#impact,
+#inquiry {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
 }
 
 /* ---------- Scroll Reveal ---------- */
@@ -1436,18 +1452,9 @@ ul {
   }
 
   /* Cards: reduce padding */
-  .crisis-card {
-    padding: 28px 24px;
-  }
-
-  .tech-card {
-    padding: 28px 24px;
-  }
-
-  .policy-card {
-    padding: 28px 24px;
-  }
-
+  .crisis-card,
+  .tech-card,
+  .policy-card,
   .biodome-pillar {
     padding: 28px 24px;
   }
