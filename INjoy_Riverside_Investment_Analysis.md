@@ -222,9 +222,11 @@ Every current Indian senior care operator is providing **basic housing + basic h
 
 ---
 
-## 7. Luxury Wellness Add-On Model — Path to ₹1,20,000/month
+## 7. Luxury Wellness Add-On Model — Why We Can Charge ₹65k On Top
 
-Competitors charge ₹40,000–60,000/month for basic housing/care. inJOY's luxury wellness add-ons drive monthly rates to ₹1,20,000/person with high-margin services.
+The market ceiling for basic housing/care is ₹55,000/month. Because inJOY offers a **proprietary luxury wellness layer** that no competitor can match, we can unlock a **₹65,000 premium on top of the base rate**.
+
+This effectively **doubles the revenue per resident** compared to the market average, while shifting the business model from low-margin real estate to high-margin wellness technology.
 
 ### Pricing Architecture
 
