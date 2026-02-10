@@ -47,6 +47,7 @@
                 <a href="#crisis">The Crisis</a>
                 <a href="#solution">The Solution</a>
                 <a href="#tech">The Tech Play</a>
+                <a href="#compliance">Compliance</a>
                 <a href="#market">Market</a>
                 <a href="#biodome">Biodome</a>
                 <a href="#impact">Impact</a>
@@ -429,6 +430,179 @@
                     Early movers in predictive-first models will define the category.
                     <br><em style="font-size: 0.8rem; opacity: 0.7;">— PwC-ASLI Senior Care Industry Report</em>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== 4b. DATA SOVEREIGNTY & COMPLIANCE ========== -->
+    <section class="section section--cream section--pattern" id="compliance">
+        <div class="container">
+            <div class="section-label reveal">Data Sovereignty</div>
+            <h2 class="section-title reveal">Indian Data Law Compliance:<br><span class="highlight">Challenges & InjoyOS
+                    Solutions</span></h2>
+            <p class="section-subtitle reveal">
+                InjoyOS processes continuous biometric data — ECG, SpO₂, HRV, gait, sleep, and behavioral patterns —
+                making regulatory compliance not optional but foundational. Here's how we architect for India's
+                evolving data landscape.
+            </p>
+
+            <div class="compliance-grid">
+                <!-- DPDP Act -->
+                <div class="compliance-card reveal reveal-delay-1">
+                    <div class="compliance-card__header">
+                        <div class="compliance-card__icon">
+                            <span class="material-symbols-rounded">shield_lock</span>
+                        </div>
+                        <div>
+                            <h3 class="compliance-card__law">DPDP Act, 2023</h3>
+                            <span class="compliance-card__tag">Digital Personal Data Protection</span>
+                        </div>
+                    </div>
+                    <div class="compliance-card__challenge">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">warning</span> The Challenge</h4>
+                        <p>Continuous biometric streams are classified as <strong>Sensitive Personal Data</strong>.
+                            Seniors with cognitive decline complicate consent requirements.
+                            AI-driven Digital Health Twins trigger automated decision-making restrictions.
+                            Data retention conflicts with longitudinal AI model needs.</p>
+                    </div>
+                    <div class="compliance-card__solution">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">check_circle</span> InjoyOS Solution
+                        </h4>
+                        <ul>
+                            <li>All health data stored in <strong>Indian sovereign data centers</strong> — zero
+                                cross-border transfer</li>
+                            <li><strong>Human-in-the-Loop (HITL) architecture</strong> — AI flags risks but a licensed
+                                clinician
+                                must review and approve before any intervention, satisfying the Act's automated
+                                decision-making restrictions</li>
+                            <li>Guardian-authorized consent framework for cognitively impaired residents</li>
+                            <li>Purpose-limited data collection with granular consent management</li>
+                            <li>Appointed Data Protection Officer (DPO) with right-to-erasure workflows</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ABDM -->
+                <div class="compliance-card reveal reveal-delay-2">
+                    <div class="compliance-card__header">
+                        <div class="compliance-card__icon">
+                            <span class="material-symbols-rounded">health_and_safety</span>
+                        </div>
+                        <div>
+                            <h3 class="compliance-card__law">ABDM Standards</h3>
+                            <span class="compliance-card__tag">Ayushman Bharat Digital Mission</span>
+                        </div>
+                    </div>
+                    <div class="compliance-card__challenge">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">warning</span> The Challenge</h4>
+                        <p>ABDM requires <strong>FHIR R4-compliant</strong> health records, but continuous biometric
+                            streaming doesn't map cleanly to traditional EHR formats. Dual consent frameworks
+                            (ABDM + DPDP Act) must operate simultaneously. Every resident needs an ABHA health ID.</p>
+                    </div>
+                    <div class="compliance-card__solution">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">check_circle</span> InjoyOS Solution
+                        </h4>
+                        <ul>
+                            <li><strong>FHIR R4 data mapping</strong> engine translating continuous biometric streams to
+                                interoperable records</li>
+                            <li>ABHA ID provisioning during resident onboarding</li>
+                            <li>Registered as Health Information Provider (HIP) within the ABDM network</li>
+                            <li>Unified consent layer satisfying both ABDM and DPDP Act requirements</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- MoHFW Telehealth -->
+                <div class="compliance-card reveal reveal-delay-3">
+                    <div class="compliance-card__header">
+                        <div class="compliance-card__icon">
+                            <span class="material-symbols-rounded">video_call</span>
+                        </div>
+                        <div>
+                            <h3 class="compliance-card__law">MoHFW Telehealth Guidelines</h3>
+                            <span class="compliance-card__tag">Telemedicine Practice Standards</span>
+                        </div>
+                    </div>
+                    <div class="compliance-card__challenge">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">warning</span> The Challenge</h4>
+                        <p>AI <strong>cannot prescribe</strong> — only licensed practitioners can. Clear boundaries
+                            needed between
+                            "AI suggestion" and "clinical decision." Cross-state medical licensing creates friction
+                            for remote consultations. Teleconsultation records require specific retention periods
+                            and audit trails.</p>
+                    </div>
+                    <div class="compliance-card__solution">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">check_circle</span> InjoyOS Solution
+                        </h4>
+                        <ul>
+                            <li>AI recommendations clearly separated as <strong>Clinical Decision Support</strong> —
+                                never prescriptive</li>
+                            <li>Licensed physician review required before any intervention</li>
+                            <li>Automated escalation pathways from telehealth to in-person care</li>
+                            <li>Complete teleconsultation audit trail with tamper-proof logging</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- CERT-In -->
+                <div class="compliance-card reveal reveal-delay-4">
+                    <div class="compliance-card__header">
+                        <div class="compliance-card__icon">
+                            <span class="material-symbols-rounded">security</span>
+                        </div>
+                        <div>
+                            <h3 class="compliance-card__law">CERT-In Directives</h3>
+                            <span class="compliance-card__tag">Cybersecurity Incident Response</span>
+                        </div>
+                    </div>
+                    <div class="compliance-card__challenge">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">warning</span> The Challenge</h4>
+                        <p>Any cybersecurity incident must be reported within <strong>6 hours</strong> — extremely tight
+                            for a
+                            24/7 health monitoring system. IoT wearables are high-value attack vectors.
+                            Real-time biometric data in transit requires end-to-end encryption.
+                            System logs must be retained for 180 days minimum.</p>
+                    </div>
+                    <div class="compliance-card__solution">
+                        <h4><span class="material-symbols-rounded"
+                                style="font-size: 1rem; vertical-align: middle;">check_circle</span> InjoyOS Solution
+                        </h4>
+                        <ul>
+                            <li><strong>End-to-end AES-256 encryption</strong> for all biometric data streams</li>
+                            <li>Automated 6-hour incident detection and CERT-In reporting pipeline</li>
+                            <li>IoT device hardening with secure firmware OTA update management</li>
+                            <li>180-day log retention infrastructure with immutable audit logs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compliance Summary Banner -->
+            <div class="confidence-banner reveal"
+                style="margin-top: 48px; flex-direction: column; text-align: center; gap: 16px;">
+                <div style="display: flex; align-items: center; gap: 12px; justify-content: center; flex-wrap: wrap;">
+                    <span class="material-symbols-rounded"
+                        style="color: var(--accent); font-size: 1.5rem;">verified_user</span>
+                    <span
+                        style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: var(--text-primary);">
+                        4 Regulatory Frameworks — One Unified Architecture
+                    </span>
+                </div>
+                <p
+                    style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; max-width: 800px; margin: 0 auto;">
+                    InjoyOS isn't retrofitting compliance — it's <strong style="color: var(--text-primary);">architected
+                        from day one</strong>
+                    around DPDP Act, ABDM, MoHFW, and CERT-In requirements. Every biometric stream, every AI prediction,
+                    every telehealth session flows through a compliance-first data pipeline within Indian sovereign
+                    infrastructure.
+                </p>
             </div>
         </div>
     </section>

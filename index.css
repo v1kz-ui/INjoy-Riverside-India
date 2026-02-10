@@ -1077,6 +1077,136 @@ ul {
   color: var(--text-primary);
 }
 
+/* ---------- Data Compliance Cards ---------- */
+.compliance-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.compliance-card {
+  background: var(--bg-card);
+  border: var(--card-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all 0.4s var(--ease-smooth);
+  box-shadow: var(--card-shadow);
+  will-change: transform;
+}
+
+.compliance-card:hover {
+  border-color: var(--card-hover-border);
+  box-shadow: var(--card-hover-shadow);
+  transform: translateY(-4px);
+}
+
+.compliance-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 28px 32px 20px;
+}
+
+.compliance-card__icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 12px;
+  background: var(--accent-8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compliance-card__law {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.compliance-card__tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-top: 2px;
+  display: block;
+}
+
+.compliance-card__challenge,
+.compliance-card__solution {
+  padding: 20px 32px;
+}
+
+.compliance-card__challenge {
+  background: rgba(212, 165, 116, 0.06);
+  border-top: 1px solid rgba(212, 165, 116, 0.1);
+  border-bottom: 1px solid rgba(212, 165, 116, 0.1);
+}
+
+.compliance-card__solution {
+  background: rgba(90, 158, 111, 0.04);
+  border-top: 1px solid rgba(90, 158, 111, 0.08);
+}
+
+.compliance-card__challenge h4,
+.compliance-card__solution h4 {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.compliance-card__challenge h4 {
+  color: var(--accent-warm);
+}
+
+.compliance-card__solution h4 {
+  color: var(--success);
+}
+
+.compliance-card__challenge p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.compliance-card__solution ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.compliance-card__solution li {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  padding-left: 20px;
+  position: relative;
+}
+
+.compliance-card__solution li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--success);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.compliance-card__solution li strong {
+  color: var(--text-primary);
+}
+
 /* ---------- Market Opportunity ---------- */
 .market-stats {
   display: grid;
@@ -1466,6 +1596,7 @@ ul {
 #crisis,
 #solution,
 #tech,
+#compliance,
 #market,
 #policy,
 #biodome,
@@ -1537,7 +1668,8 @@ ul {
   }
 
   .tech-grid,
-  .policy-grid {
+  .policy-grid,
+  .compliance-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1661,7 +1793,10 @@ ul {
   .crisis-card,
   .tech-card,
   .policy-card,
-  .biodome-pillar {
+  .biodome-pillar,
+  .compliance-card__header,
+  .compliance-card__challenge,
+  .compliance-card__solution {
     padding: 28px 24px;
   }
 
