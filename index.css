@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* ---------- Google Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+/* Fonts loaded via HTML <link preload> for non-blocking delivery */
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
@@ -499,6 +499,8 @@ ul {
   border-radius: var(--radius-md);
   transition: all 0.4s var(--ease-smooth);
   box-shadow: var(--card-shadow);
+  will-change: transform;
+  /* GPU hint for hover animations */
 }
 
 .crisis-card:hover,
@@ -1278,11 +1280,15 @@ ul {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s var(--ease-smooth), transform 0.8s var(--ease-smooth);
+  will-change: opacity, transform;
+  /* GPU-composited reveal */
 }
 
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto;
+  /* release GPU memory after animation */
 }
 
 .reveal-delay-1 {

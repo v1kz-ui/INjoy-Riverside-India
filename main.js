@@ -179,11 +179,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- 7. Hero daily counter — real-time feel ----
-  // Simulates the "seniors added today" based on time of day
-  const heroCounter = document.querySelector('.hero .daily-counter__number');
-  if (heroCounter && heroCounter.classList.contains('count-up')) {
-    // Already handled by the generic counter above
-  }
-
 });
