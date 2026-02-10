@@ -511,7 +511,13 @@ ul {
   box-shadow: var(--card-hover-shadow);
 }
 
-/* Shared icon background */
+/* ---- Rose Gold Icon Wash — Global ---- */
+/* All Material Symbols icons get rose gold color */
+.material-symbols-rounded {
+  color: var(--accent);
+}
+
+/* Shared icon container background */
 .crisis-card__icon,
 .policy-card__icon,
 .solution-point__icon,
@@ -520,6 +526,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Emoji icons — rose gold tinted containers */
+.crisis-card__icon,
+.biodome-pillar__icon,
+.orbit-node {
+  background: linear-gradient(135deg, var(--accent-8), var(--accent-12));
+  border: 1px solid var(--accent-15);
 }
 
 /* ---------- Crisis Cards ---------- */
