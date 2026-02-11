@@ -1823,7 +1823,8 @@ ul {
   }
 
   /* Grids → single column */
-  .crisis-grid {
+  .crisis-grid,
+  .asset-feature-grid {
     grid-template-columns: 1fr;
   }
 
