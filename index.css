@@ -1541,15 +1541,20 @@ ul {
 }
 
 .biodome-pillar {
-  background: linear-gradient(180deg, rgba(183, 110, 121, 0.04), #FFFFFF);
+  background: rgba(255, 255, 255, 0.03);
+  /* Dark glass */
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   padding: 40px 32px;
   text-align: center;
+  transition: all 0.3s var(--ease-smooth);
 }
 
 .biodome-pillar:hover {
   transform: translateY(-6px);
-  box-shadow: 0 20px 60px var(--accent-8);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
 .biodome-pillar__icon {
@@ -1558,6 +1563,11 @@ ul {
   border-radius: 50%;
   margin: 0 auto 20px;
   font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
 }
 
 .biodome-pillar__title {
@@ -1565,11 +1575,12 @@ ul {
   font-size: 1.15rem;
   font-weight: 700;
   margin-bottom: 12px;
+  color: #FFFFFF;
 }
 
 .biodome-pillar__desc {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(253, 251, 247, 0.8);
   line-height: 1.6;
 }
 
