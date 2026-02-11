@@ -1117,15 +1117,19 @@ ul {
 }
 
 /* Confidence Banner */
+/* Confidence Banner */
 .confidence-banner {
   margin-top: 48px;
-  background: linear-gradient(135deg, var(--accent-6), var(--warm-4));
-  border: 1px solid var(--accent-12);
+  background: rgba(255, 255, 255, 0.03);
+  /* Dark glass */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 4px solid var(--accent);
   border-radius: var(--radius-md);
   padding: 32px 40px;
   display: flex;
   align-items: center;
   gap: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .confidence-banner__stat {
@@ -1139,12 +1143,19 @@ ul {
 
 .confidence-banner__text {
   font-size: 1rem;
-  color: var(--text-muted);
+  color: rgba(253, 251, 247, 0.8) !important;
+  /* Force light text */
   line-height: 1.6;
 }
 
 .confidence-banner__text strong {
-  color: var(--text-primary);
+  color: #FFFFFF !important;
+  /* Force white bold */
+}
+
+.confidence-banner__text em {
+  color: var(--accent) !important;
+  opacity: 0.9;
 }
 
 /* ---------- Data Compliance Cards ---------- */
