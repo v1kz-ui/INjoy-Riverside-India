@@ -164,7 +164,8 @@ ul {
 }
 
 .section--darker .section-subtitle {
-  color: rgba(253, 251, 247, 0.6);
+  color: rgba(253, 251, 247, 0.85);
+  /* High legibility */
 }
 
 /* Sandstone Mode */
@@ -1011,13 +1012,21 @@ ul {
 }
 
 .tech-card {
+  background: rgba(255, 255, 255, 0.03);
+  /* Glassy background */
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   padding: 40px;
   position: relative;
+  transition: all 0.3s var(--ease-smooth);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .tech-card:hover {
   transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
 }
 
 .tech-card__header {
