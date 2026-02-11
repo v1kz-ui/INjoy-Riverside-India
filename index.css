@@ -1689,10 +1689,11 @@ ul {
 }
 
 .impact-hero-stat__source {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  margin-top: 8px;
+  margin-top: 12px;
   font-style: italic;
+  line-height: 1.8;
 }
 
 .prediction-list {
