@@ -44,9 +44,9 @@
         <div class="container nav__inner">
             <a href="#" class="nav__brand">in<span>JOY</span> Riverside</a>
             <div class="nav__links" id="navLinks">
-                <a href="#solution">The Sanctuary</a>
+                <a href="#crisis">Crisis</a>
                 <a href="#market">Market</a>
-                <a href="#crisis">Context</a>
+                <a href="#solution">Solution</a>
                 <a href="#tech">Tech</a>
                 <a href="#landscape">Landscape</a>
                 <a href="#impact">Impact</a>
@@ -128,112 +128,8 @@
         </div>
     </section>
 
-    </section>
-
-    <!-- ========== 2. THE SANCTUARY (Formerly Solution) - REAL ESTATE FIRST ========== -->
-    <section class="section section--dark section--pattern" id="solution">
-        <div class="container">
-            <div class="section-label reveal">The Sanctuary Asset</div>
-            <h2 class="section-title reveal">India's First<br><span class="highlight">Blue Zone Community.</span></h2>
-            <p class="section-subtitle reveal">
-                A 32-acre ultra-luxury riverfront estate designed for the "Second Peak" of life.
-                More than just a home, it is a metabolic health engine.
-            </p>
-
-            <div class="solution-layout">
-                <div class="solution-visual reveal">
-                    <div class="biodome-visual">
-                        <div class="orbit-node"><span class="material-symbols-rounded">genetics</span></div>
-                        <div class="orbit-node"><span class="material-symbols-rounded">psychology</span></div>
-                        <div class="orbit-node"><span class="material-symbols-rounded">eco</span></div>
-                        <div class="orbit-node"><span class="material-symbols-rounded">favorite</span></div>
-                        <div class="biodome-center">
-                            <div class="biodome-center__icon"><span class="material-symbols-rounded">domain</span></div>
-                            <div class="biodome-center__label">The Biodome</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="solution-content reveal">
-                    <h3
-                        style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; margin-bottom: 8px;">
-                        The Physical Asset</h3>
-                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 24px;">
-                        A tangible, high-yield real estate asset located on the banks of the Sutlej River, near the IIT
-                        Ropar Innovation Corridor.
-                    </p>
-
-                    <div class="solution-point">
-                        <div class="solution-point__icon"><span class="material-symbols-rounded">home</span></div>
-                        <div class="solution-point__text">
-                            <h4>Luxury Villas & Apartments</h4>
-                            <p>Biophilic architecture with invisible assistive technology, circadian lighting, and
-                                medical-grade infrastructure.</p>
-                            <p class="solution-point__outcome"><strong>&rarr; High-margin rental yields driven by
-                                    scarcity of quality supply</strong></p>
-                        </div>
-                    </div>
-                    <div class="solution-point">
-                        <div class="solution-point__icon"><span class="material-symbols-rounded">eco</span></div>
-                        <div class="solution-point__text">
-                            <h4>Regenerative Biodome</h4>
-                            <p>A climate-controlled botanical sanctuary providing organic food (Seed-to-Soul) and
-                                year-round air quality management.</p>
-                            <p class="solution-point__outcome"><strong>&rarr; The "Moat" that competitors cannot
-                                    replicate</strong></p>
-                        </div>
-                    </div>
-                    <div class="solution-point">
-                        <div class="solution-point__icon"><span class="material-symbols-rounded">fitness_center</span>
-                        </div>
-                        <div class="solution-point__text">
-                            <h4>Active Longevity Infrastructure</h4>
-                            <p>Walking tracks that generate electricity, hydrotherapy pools, and cognitive fitness labs.
-                            </p>
-                            <p class="solution-point__outcome"><strong>&rarr; Direct impact on resident health
-                                    span</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== 3. MARKET OPPORTUNITY ========== -->
-    <section class="section section--darker section--pattern" id="market">
-        <div class="container">
-            <div class="section-label reveal">The Investment Case</div>
-            <h2 class="section-title reveal">A <span class="highlight">$30 Billion+</span> Market<br>Waiting for
-                Infrastructure</h2>
-            <p class="section-subtitle reveal">
-                India's senior care sector is transitioning from charity-based care to a lifestyle and service sector.
-                Rising disposable income and insurance expansion are creating the conditions for exponential growth.
-            </p>
-
-            <!-- Market Stats (Previous Content Preserved) -->
-            <div class="market-stats">
-                <div class="market-stat reveal reveal-delay-1">
-                    <div class="market-stat__value">$12-15B</div>
-                    <div class="market-stat__label">Current market size</div>
-                </div>
-                <div class="market-stat reveal reveal-delay-2">
-                    <div class="market-stat__value">&gt;$30B</div>
-                    <div class="market-stat__label">Projected market size</div>
-                </div>
-                <div class="market-stat reveal reveal-delay-3">
-                    <div class="market-stat__value count-up" data-target="18" data-suffix="%">0</div>
-                    <div class="market-stat__label">Home healthcare CAGR (2025-30)</div>
-                </div>
-                <div class="market-stat reveal reveal-delay-4">
-                    <div class="market-stat__value">$4.8-8.4B</div>
-                    <div class="market-stat__label">Investment gap (2025-30)</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== 4. THE CONTEXT (Formerly Crisis) ========== -->
-    <section class="section section--dark section--grid" id="crisis">
+    <!-- ========== 2. THE CRISIS ========== -->
+    <section class="section section--darker section--grid" id="crisis">
         <div class="container">
             <div class="section-label reveal">The Quality Gap</div>
             <h2 class="section-title reveal">Mass Scale Numbers.<br><span class="highlight">Elite Niche Scarcity.</span>
@@ -300,9 +196,165 @@
         </div>
     </section>
 
+    <!-- ========== 5. MARKET OPPORTUNITY ========== -->
+    <section class="section section--dark section--pattern" id="market">
+        <div class="container">
+            <div class="section-label reveal">The Opportunity</div>
+            <h2 class="section-title reveal">A <span class="highlight">$30 Billion+</span> Market<br>Waiting for
+                Infrastructure</h2>
+            <p class="section-subtitle reveal">
+                India's senior care sector is transitioning from charity-based care to a lifestyle and service sector.
+                Rising disposable income, insurance expansion (Ayushman Bharat covering 70+), and policy tailwinds are
+                creating
+                the conditions for exponential growth. Compliance with DPDP Act and ABDM standards ensures
+                data-sovereign, investor-grade infrastructure.
+            </p>
+
+            <div class="market-stats">
+                <div class="market-stat reveal reveal-delay-1">
+                    <div class="market-stat__value">$12-15B</div>
+                    <div class="market-stat__label">Current market size</div>
+                </div>
+                <div class="market-stat reveal reveal-delay-2">
+                    <div class="market-stat__value">&gt;$30B</div>
+                    <div class="market-stat__label">Projected market size</div>
+                </div>
+                <div class="market-stat reveal reveal-delay-3">
+                    <div class="market-stat__value count-up" data-target="18" data-suffix="%">0</div>
+                    <div class="market-stat__label">Home healthcare CAGR (2025-30)</div>
+                </div>
+                <div class="market-stat reveal reveal-delay-4">
+                    <div class="market-stat__value">$4.8-8.4B</div>
+                    <div class="market-stat__label">Investment gap (2025-30)</div>
+                </div>
+            </div>
+
+            <div class="market-detail">
+                <div class="market-detail-card reveal">
+                    <h4>Demand-Supply Imbalance</h4>
+                    <p>Projected demand: 1.7M senior living units in 2025, rising to 2.3M by 2030. Current organized
+                        supply serves only 2-3% of the senior population.</p>
+                </div>
+                <div class="market-detail-card reveal">
+                    <h4>Tier-2 City Expansion</h4>
+                    <p>Growth is shifting to cities like Dehradun, Pune, Goa, and Coimbatore — lower land costs, better
+                        environments, and strong connectivity. inJOY's Sutlej River location near IIT Ropar is
+                        positioned in this corridor.</p>
+                </div>
+                <div class="market-detail-card reveal">
+                    <h4>The Remote Monitoring Segment</h4>
+                    <p>Vitals tracking, alerts, and connected devices reached $250-300M by 2025. The telemedicine market
+                        alone is projected to exceed $4B by 2026.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- ========== 3. THE SOLUTION ========== -->
+    <section class="section section--dark section--pattern" id="solution">
+        <div class="container">
+            <div class="section-label reveal">The Lighthouse Model</div>
+            <h2 class="section-title reveal">Not a Retirement Home.<br><span class="highlight">A Life Reinvention
+                    Hub.</span></h2>
+            <p class="section-subtitle reveal">
+                Inspired by the Punjabi concept of <strong style="color: var(--accent);">Chardi Kala</strong> — eternal
+                optimism and rising spirits —
+                inJOY Riverside replaces the "old script" of decline with a new narrative: ageing is reinvention,
+                purpose, and the Second Peak of life.
+                All resident health data is processed under India's <strong style="color: var(--accent);">DPDP Act,
+                    2023</strong>.
+            </p>
 
+            <div class="solution-layout">
+                <div class="solution-visual reveal">
+                    <div class="biodome-visual">
+                        <div class="orbit-node"><span class="material-symbols-rounded">genetics</span></div>
+                        <div class="orbit-node"><span class="material-symbols-rounded">psychology</span></div>
+                        <div class="orbit-node"><span class="material-symbols-rounded">eco</span></div>
+                        <div class="orbit-node"><span class="material-symbols-rounded">favorite</span></div>
+                        <div class="biodome-center">
+                            <div class="biodome-center__icon"><span class="material-symbols-rounded">domain</span></div>
+                            <div class="biodome-center__label">The Biodome</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-content reveal">
+                    <h3
+                        style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; margin-bottom: 8px;">
+                        Six Dimensions of Ageing — Powered by Predictive AI</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 24px;">The biodome doesn't
+                        just house residents — it continuously monitors, predicts, and optimizes across six
+                        scientifically-validated dimensions. All data flows are DPDP Act-compliant and ABDM
+                        interoperable.</p>
+
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">fitness_center</span>
+                        </div>
+                        <div class="solution-point__text">
+                            <h4>Body &mdash; Movement is Medicine</h4>
+                            <p>AI-tracked activity patterns to prevent sarcopenia. Gait analysis and fall prediction
+                                7-10 days in advance.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Reduces fall-related hospitalizations by
+                                    up to 40%, cutting single-largest senior care cost driver</strong></p>
+                        </div>
+                    </div>
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">psychology</span></div>
+                        <div class="solution-point__text">
+                            <h4>Mind &mdash; Cognitive Reserve Building</h4>
+                            <p>Depression prediction 7 days before onset. Cognitive agility tracked through learning
+                                activities and social engagement.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Lowers psychiatric intervention costs,
+                                    extends independent living tenure by 2-3 years</strong></p>
+                        </div>
+                    </div>
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">self_improvement</span>
+                        </div>
+                        <div class="solution-point__text">
+                            <h4>Spirit &mdash; The JEEP Framework</h4>
+                            <p>Monitoring Joy, Energy, Enthusiasm, and Peace &mdash; predictive indicators for spiritual
+                                and
+                                emotional wellbeing.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Higher satisfaction scores = lower churn,
+                                    stronger word-of-mouth referrals</strong></p>
+                        </div>
+                    </div>
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">favorite</span></div>
+                        <div class="solution-point__text">
+                            <h4>Heart &mdash; Social Connectivity</h4>
+                            <p>Moai-style social tribes. Combating the <em>"15 cigarettes a day"</em> impact of
+                                loneliness through structured community.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Reduces loneliness-driven health costs
+                                    &mdash; the #1 hidden driver of senior emergency visits</strong></p>
+                        </div>
+                    </div>
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">home</span></div>
+                        <div class="solution-point__text">
+                            <h4>Home &mdash; Forever Design</h4>
+                            <p>Biophilic architecture with invisible assistive technology, circadian lighting, and
+                                medical-grade infrastructure.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Eliminates costly retrofits, justifies
+                                    premium pricing vs. conventional senior housing</strong></p>
+                        </div>
+                    </div>
+                    <div class="solution-point">
+                        <div class="solution-point__icon"><span class="material-symbols-rounded">work</span></div>
+                        <div class="solution-point__text">
+                            <h4>Work &mdash; Retired to Rewired</h4>
+                            <p>Portfolio careers, mentorship programs, and innovation incubation. From withdrawal to
+                                contribution.</p>
+                            <p class="solution-point__outcome"><strong>&rarr; Creates ancillary IP and licensing
+                                    revenue, attracts academic partnerships</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ========== 4. THE TECH PLAY ========== -->
     <section class="section section--darker section--grid" id="tech">
