@@ -346,7 +346,7 @@ ul {
 
 .nav__links {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   align-items: center;
 }
 
@@ -2543,6 +2543,76 @@ ul {
   .biodome-pillar {
     padding: 28px 20px;
   }
+
+  /* Lighthouse section */
+  .lighthouse-engine {
+    padding: 24px 16px;
+  }
+
+  .lighthouse-engine__number {
+    font-size: 2rem;
+  }
+
+  .lighthouse-engine__title {
+    font-size: 1.1rem;
+  }
+
+  .lighthouse-engine__desc {
+    font-size: 0.85rem;
+  }
+
+  .lighthouse-bottom-line {
+    padding: 20px 16px;
+    font-size: 0.85rem;
+  }
+
+  /* Financial cards */
+  .financial-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .financial-card {
+    padding: 24px 20px;
+  }
+
+  .financial-card__big-number {
+    font-size: 1.8rem;
+  }
+
+  .financial-card__title {
+    font-size: 0.9rem;
+  }
+
+  .breakdown-row {
+    font-size: 0.8rem;
+  }
+
+  /* Roadmap */
+  .roadmap-phase__marker {
+    width: 40px;
+    height: 40px;
+  }
+
+  .roadmap-phase__marker .material-symbols-rounded {
+    font-size: 1.1rem;
+  }
+
+  .roadmap-timeline::before {
+    left: 20px;
+  }
+
+  .roadmap-phase__content {
+    padding: 20px 16px;
+  }
+
+  .roadmap-phase__period {
+    font-size: 1rem;
+  }
+
+  .roadmap-phase__items li {
+    font-size: 0.85rem;
+  }
 }
 
 /* ========== GAP MATRIX & WELLNESS MODEL ========== */
@@ -2617,7 +2687,7 @@ ul {
 
 /* Competitor Cols */
 .competitor-col {
-  color: var(--text-primary);
+  color: #9CA3AF;
   font-weight: 700;
 }
 
@@ -2626,7 +2696,7 @@ ul {
   font-size: 0.7rem;
   font-weight: 500;
   margin-top: 4px;
-  color: var(--text-muted);
+  color: #B0B8C4;
 }
 
 /* inJOY Highlight Col */
@@ -2663,9 +2733,9 @@ ul {
 }
 
 .marker-no {
-  color: #E05555;
-  font-size: 1.1rem;
-  font-weight: 700;
+  color: #DC2626;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .marker-partial {
