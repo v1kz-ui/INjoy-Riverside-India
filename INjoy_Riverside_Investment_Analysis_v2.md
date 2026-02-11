@@ -40,7 +40,8 @@ Located on the banks of the **Sutlej River**, near the **IIT Ropar Innovation Co
 
 **Business Model (Engine 1):**
 *   **High-Margin Monthly Fees:** ₹1.2L/month (vs. market avg ₹55k).
-*   **Validation Ground:** This site proves that *preventive care reduces costs*, creating the data set needed for insurance partnerships later.
+*   **Asset-Backed Security:** The primary value is the land and operation. The Tech is the "cherry on top" that drives valuation multiples.
+*   **Phased De-Risking:** We do not build complex AI until the building is generating revenue.
 
 ---
 
@@ -50,7 +51,8 @@ While the Real Estate pays the bills, the **Technology** builds the valuation.
 
 **InjoyOS** is the invisible nervous system connecting the campus.
 *   **Current Status:** Architecture & Partnership Phase.
-*   **The Goal:** To move from "Reactive" (calling an ambulance) to "Predictive" (preventing the fall).
+*   **The Approach:** We are not building a "Tech Company" from Day 1. We are building a "Tech-Ready" building.
+*   **The Goal:** Evolve from "Smart Home" (Phase 1) to "Smart Health" (Phase 2).
 
 ### Key Innovation Targets (Validation Phase)
 We are partnering with clinical-grade wearable providers to validate the following outcomes:

@@ -10,8 +10,11 @@
 inJOY Riverside is not just a senior living project. It is a **"Lighthouse Lab"** designed to validate India's first predictive health operating system (**InjoyOS**).
 
 We are executing a proven "Lighthouse Innovation Model":
-1.  **Engine 1 (The Lighthouse):** Build *one* ultra-luxury, high-margin destination (Riverside) to prove the model, generate cash flow, and gather high-fidelity data.
-2.  **Engine 2 (The Platform):** Package the proprietary protocols, data models, and software (InjoyOS) into a scalable licensing play for the mass market.
+1.  **Phase 1 (The Asset):** Build a world-class, cash-flow positive senior living community. This is a **pure real estate play** with immediate intrinsic value (Land + Operations).
+2.  **Phase 2 (The Intelligence):** Layer the proprietary InjoyOS technology *on top* of the stabilized asset.
+3.  **Phase 3 (The Scale):** Once validated, license the OS to the mass market.
+
+**The Safety Net:** Even if the "Tech Moonshot" never happens, investors own a high-yield, stabilized real estate asset in a prime corridor.
 
 **The Ask:** We are looking for partners who understand that to solve the mass-market ageing crisis, we must first perfect the model at the top.
 
@@ -61,7 +64,12 @@ We justify the premium not through real estate, but through the **Wellness Layer
 
 While the Real Estate (Engine 1) pays the bills and provides stability, **InjoyOS** (Engine 2) builds the venture valuation.
 
-**InjoyOS** is the invisible nervous system connecting the campus. It shifts care from "Reactive" (calling an ambulance) to "Predictive" (preventing the fall).
+**InjoyOS** is the invisible nervous system connecting the campus. It is being built in **strict phases** to match the physical development, minimizing burn rate and technical risk.
+
+### Phased Tech Rollout
+*   **Phase 1 (Foundation):** Basic connectivity, digital health records, and emergency response systems. (Low Risk, High Utility).
+*   **Phase 2 (Data Collection):** Integration of wearable sensors to baseline resident health data. (Modest Risk, High Value).
+*   **Phase 3 (Predictive AI):** Activation of ML models *only after* sufficient data density is achieved. (High Upside).
 
 ### Validation Targets (Not Just Claims)
 We are partnering with clinical-grade wearable providers to validate specific biomarkers. We are not "creating magic"; we are **integrating proven sensors** to detect early warning signs.
@@ -91,18 +99,20 @@ You cannot have the data (for the tech) without the residents (in the real estat
 
 ## 5. Development Roadmap: Validation First
 
-### Phase 1: The Foundation (2025-2026)
-*   **Secure Land:** Sutlej Riverfront confirmed.
-*   **Partner Ecosystem:** Sign MOUs with Wearable Partners (Interoperability focus).
-*   **Regulatory Sandbox:** Establish DPDP-compliant data vaults.
+### Phase 1: Real Estate & Infrastructure (2025-2026)
+*   **Focus:** Land acquisition, permitting, construction, and basic IT infrastructure.
+*   **Tech Deliverable:** Fiber-optic backbone, server rooms, and basic "Smart Home" features (lighting, temp control).
+*   **Risk Profile:** Traditional Real Estate Development Risk.
 
-### Phase 2: The Lighthouse Build (2026-2027)
-*   **Construction:** Build the physical Biodome and Villas.
-*   **The Pilot:** "Founding 50" Resident Cohort. These users are the beta testers for the InjoyOS algorithms.
+### Phase 2: Operations & Data Baseline (2026-2027)
+*   **Focus:** Resident move-ins, hospitality operations, and manual health tracking.
+*   **Tech Deliverable:** InjoyOS v1 (Digital Health Records + Emergency Response).
+*   **Risk Profile:** Operational Execution Risk.
 
-### Phase 3: The Scale (2028+)
-*   **Licensing:** Open InjoyOS to 3rd party operators.
-*   **Expansion:** Second Lighthouse in South India (Western Ghats).
+### Phase 3: AI Activation & Scale (2028+)
+*   **Focus:** Turning data into insights.
+*   **Tech Deliverable:** InjoyOS v2 (Predictive Algorithms + Automated Alerting).
+*   **Risk Profile:** Technology Adoption Risk.
 
 ---
 
@@ -118,7 +128,7 @@ Every current Indian senior care operator is providing **basic housing + basic h
 | **Wellness** | Basic Gym / Yoga | **Regenerative Biodome & Longevity Lab** |
 | **Data Strategy** | None / Siloed | **DPDP Sovereign Data Vault** |
 
-**Verdict:** We are the **only** player building the **"Gold Standard"** of senior care—high cost, high tech, high performance—to pave the way for the mass market later.
+**Verdict:** We are a **Real Estate Asset** with a **Tech Call Option**. We are not asking investors to fund a risky science experiment; we are asking them to fund a high-yield property that *could* revolutionize the industry.
 
 ---
 
