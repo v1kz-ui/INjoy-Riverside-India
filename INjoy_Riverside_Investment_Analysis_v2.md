@@ -25,6 +25,14 @@ Our primary customer is not the retiree living on a pension. It is the **Global 
 *   **The Problem:** "My parents are alone in India. I have money, but I cannot buy them safety, dignity, or company from London/New York."
 *   **The Value Proposition:** for ₹1.2L ($1,500/mo), we offer a standard of care that would cost $6,000+ in the West. This arbitrage is our margin.
 
+### The "Tesla" Master Plan (Strategic Gap)
+*   **The Question:** "How does a luxury project help the average Indian senior?"
+*   **The Answer:** Innovation trickles down.
+    *   **Phase 1 (The Roadmap):** Build a high-margin, low-volume product (The Sanctuary) to fund R&D.
+    *   **Phase 2:** Use the profits to refine the "InjoyOS" technology.
+    *   **Phase 3:** License the OS to mass-market operators at a low cost.
+*   **Analogy:** Just as ABS brakes and traction control started in Ferraris and trickled down to every Toyota, **InjoyOS** starts at Riverside to eventually save lives in every district hospital.
+
 ---
 
 ## 2. Engine 1: The Lighthouse Property (Real Estate + Ops)
@@ -58,6 +66,11 @@ While the Real Estate pays the bills, the **Technology** builds the valuation.
 *   **Current Status:** Architecture & Partnership Phase.
 *   **The Approach:** We are not building a "Tech Company" from Day 1. We are building a "Tech-Ready" building.
 *   **The Goal:** Evolve from "Smart Home" (Phase 1) to "Smart Health" (Phase 2).
+
+### Current Validation (The "Beta" Pilots)
+We are not starting from zero. **InjoyOS is currently being deployed in 2 pilot sites in Kerala.**
+*   **Purpose:** Gathering baseline geriatric data (gait, sleep, vitals) in a real-world setting.
+*   **Outcome:** These pilots will provide the initial training dataset for our predictive models *before* Riverside opens.
 
 ### Key Innovation Targets (Validation Phase)
 We are partnering with clinical-grade wearable providers to validate the following outcomes:
