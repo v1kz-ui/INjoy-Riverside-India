@@ -1449,11 +1449,18 @@ ul {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  background: rgba(255, 255, 255, 0.03);
+  /* Dark glass */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s var(--ease-smooth);
 }
 
 .policy-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--accent-6);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .policy-card__icon {
@@ -1463,6 +1470,11 @@ ul {
   border-radius: 12px;
   font-size: 1.3rem;
   color: var(--accent);
+  background: rgba(255, 255, 255, 0.05);
+  /* Icon bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .policy-card__title {
@@ -1470,11 +1482,14 @@ ul {
   font-size: 1.05rem;
   font-weight: 600;
   margin-bottom: 8px;
+  color: #FFFFFF;
+  /* Force white title */
 }
 
 .policy-card__desc {
-  font-size: 0.85rem;
-  color: var(--text-muted);
+  font-size: 0.9rem;
+  color: rgba(253, 251, 247, 0.8);
+  /* Force light desc */
   line-height: 1.6;
 }
 
