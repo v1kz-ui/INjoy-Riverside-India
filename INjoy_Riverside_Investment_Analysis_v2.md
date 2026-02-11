@@ -8,7 +8,7 @@
 
 inJOY Riverside is not just a senior living project. It is a **"Lighthouse Lab"** designed to validate India's first predictive health operating system (**InjoyOS**).
 
-We are executing a proven "Tesla Master Plan" strategy:
+We are executing a proven "Lighthouse Innovation Model":
 1.  **Engine 1 (The Lighthouse):** Build *one* ultra-luxury, high-margin destination to prove the model, generate cash flow, and gather high-fidelity data.
 2.  **Engine 2 (The Platform):** Package the proprietary protocols, data models, and software (InjoyOS) into a scalable licensing play for the mass market.
 

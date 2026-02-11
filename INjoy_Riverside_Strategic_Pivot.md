@@ -6,7 +6,7 @@
 ### 1. The Core Confusion: Real Estate or Tech Platform?
 **Feedback:** "Is this a real estate + ops heavy execution play... or a venture-backable, scalable platform play?"
 
-**The Pivot: The "Tesla Master Plan" Approach (The Lighthouse Strategy)**
+**The Pivot: The "Lighthouse Innovation Model" (The Lighthouse Strategy)**
 We are not confused; we are deliberate. We are building the **"Lighthouse"** to prove the **"OS"**.
 *   **Phase 1 (The Lighthouse):** Build *one* world-class, asset-heavy, ultra-luxury destination (Riverside) to validate the model, generate high-margin cash flow, and train the AI models on high-fidelity data.
 *   **Phase 2 (The Platform):** Once the *InjoyOS* is proven and the predictive models are validated in our controlled environment, we license the OS and Care Protocols to the mass market.
