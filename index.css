@@ -935,6 +935,59 @@ ul {
   opacity: 0.7;
 }
 
+/* ---------- Clean Living Foundation ---------- */
+.clean-living-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.clean-card {
+  background: rgba(253, 251, 247, 0.06);
+  border: 1px solid rgba(197, 160, 133, 0.15);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  text-align: center;
+  transition: all 0.4s var(--ease-smooth);
+}
+
+.clean-card:hover {
+  background: rgba(253, 251, 247, 0.1);
+  border-color: rgba(197, 160, 133, 0.3);
+  transform: translateY(-4px);
+}
+
+.clean-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-8), var(--accent-15));
+  border: 1px solid var(--accent-20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.clean-card__icon .material-symbols-rounded {
+  font-size: 1.5rem;
+}
+
+.clean-card__title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.clean-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(253, 251, 247, 0.8);
+}
+
 /* ---------- Solution Section ---------- */
 .solution-layout {
   display: grid;
@@ -2243,6 +2296,11 @@ ul {
   .impact-layout {
     grid-template-columns: 1fr;
     gap: 48px;
+  }
+
+  .clean-living-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .tech-grid,
