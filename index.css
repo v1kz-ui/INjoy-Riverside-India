@@ -950,7 +950,16 @@ ul {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
+  /* Force dark text on white card */
+}
+
+.asset-feature-card__desc {
+  font-size: 0.85rem;
+  color: var(--text-muted) !important;
+  /* Force dark text on white card */
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 
 .asset-feature-card__desc {
