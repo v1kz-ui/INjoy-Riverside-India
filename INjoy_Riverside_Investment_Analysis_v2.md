@@ -41,7 +41,9 @@ Located on the banks of the **Sutlej River**, near the **IIT Ropar Innovation Co
 **Business Model (Engine 1):**
 *   **High-Margin Monthly Fees:** ₹1.2L/month (vs. market avg ₹55k).
 *   **Asset-Backed Security:** The primary value is the land and operation. The Tech is the "cherry on top" that drives valuation multiples.
-*   **Phased De-Risking:** We do not build complex AI until the building is generating revenue.
+*   **Recurring Revenue Engine:** 
+    *   **Memory Care Village:** 112 units in Dutch-inspired "Rotundas" generating ₹40.32 Cr/year.
+    *   **Villa Rental Portfolio:** Retained inventory ensuring long-term annuity income.
 
 ---
 
@@ -98,13 +100,26 @@ You cannot have the data (for the tech) without the residents (in the real estat
 
 ---
 
-## 6. Financial Summary (Simplified)
+## 6. Financial Summary (The "Fortress" Balance Sheet)
 
-*   **CapEx (Real Estate):** Funded by Private Equity / Family Offices. (Asset Backed).
-*   **OpEx (Tech Dev):** Funded by Venture Capital / Angels. (IP Backed).
-*   **Revenue Split:**
-    *   **Day 1:** 90% Operations (Rent/Service) / 10% Tech.
-    *   **Year 5:** 50% Operations / 50% Licensing & IP.
+### The Ask: ₹125 Crores (Asset-Backed)
+*   **Deployment:** ₹50 Cr (Land) + ₹75 Cr (Phase 1 Construction).
+*   **Exit Timeline:** 4 Years.
+*   **Target ROI:** 50% (₹187.5 Cr Payout on ₹125 Cr Principal).
+*   **Downside Protection:** The payout is covered by selling just **50% of the inventory** (~1.93x coverage).
+
+### The Revenue Engine (at Stabilization)
+*   **Total Sales Revenue:** ₹725 Cr (from 495 Units).
+*   **Annual Recurring Revenue (ARR):** **₹190.12 Cr**, broken down as:
+    *   **Service Fees:** ₹108 Cr
+    *   **Memory Care:** ₹40.32 Cr
+    *   **Villa Rentals:** ₹41.80 Cr
+    *   **Medical Assessment:** ₹16.26 Cr
+
+### Developer Retained Asset (The Golden Goose)
+We exit the investor in Year 4 but retain **230 Villas + Memory Care Village**.
+*   **Retained Income:** ₹82.2 Cr/year.
+*   **Valuation:** ~₹658 Cr (at 8% Cap Rate).
 
 ---
 

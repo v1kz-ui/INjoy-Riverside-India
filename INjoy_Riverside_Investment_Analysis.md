@@ -10,8 +10,8 @@
 inJOY Riverside is not just a senior living project. It is a **"Lighthouse Lab"** designed to validate India's first predictive health operating system (**InjoyOS**).
 
 We are executing a proven "Lighthouse Innovation Model":
-1.  **Phase 1 (The Asset):** Build a world-class, cash-flow positive senior living community. This is a **pure real estate play** with immediate intrinsic value (Land + Operations).
-2.  **Phase 2 (The Intelligence):** Layer the proprietary InjoyOS technology *on top* of the stabilized asset.
+1.  **Phase 1 (The Asset):** Build a world-class, cash-flow positive senior living community of **495 units** (Villas + Memory Care). This is a **pure real estate play** with immediate intrinsic value.
+2.  **Phase 2 (The Intelligence):** Layer the proprietary InjoyOS technology *on top* of the stabilized asset, generating ₹16.26 Cr in medical assessment revenue.
 3.  **Phase 3 (The Scale):** Once validated, license the OS to the mass market.
 
 **The Safety Net:** Even if the "Tech Moonshot" never happens, investors own a high-yield, stabilized real estate asset in a prime corridor.
@@ -40,7 +40,9 @@ Located on the banks of the **Sutlej River**, near the **IIT Ropar Innovation Co
 
 **It is not a retirement home. It is a Life Reinvention Hub.**
 *   **Concept:** A 5-Star Resort meets the Mayo Clinic.
-*   **Moat:** The **Regenerative Biodome**. We operate a Seed-to-Soul closed-loop food system and specific "Blue Zone" infrastructure (walking tracks that track gait, circadian lighting).
+*   **Capacity:** 495 Units (Type A, B1, B2, Custom Villas).
+*   **Specialty Asset:** **112 Memory Care Units** in 8 Dutch-inspired "Rotunda" clusters to eliminate anxiety and dead ends.
+*   **Moat:** The **Regenerative Biodome**. We operate a Seed-to-Soul closed-loop food system and specific "Blue Zone" infrastructure.
 
 ### High-Margin Pricing Architecture
 We justify the premium not through real estate, but through the **Wellness Layer**.
@@ -57,6 +59,12 @@ We justify the premium not through real estate, but through the **Wellness Layer
 | | **Total** | **₹1,20,000** |
 
 **Insight:** Base housing is low-margin. The Wellness Layer (₹65k/mo) is high-margin (~68%) and has no direct competition.
+
+### The "Hidden" Annuity: Memory Care
+While independent living drives sales volume, **Memory Care** drives recurring revenue density.
+*   **Revenue Potential:** ₹40.32 Cr / Year.
+*   **Unit Economics:** ₹3L / Month / Resident.
+*   **Asset Strategy:** These units are 100% retained by the developer, creating a permanent cash flow engine.
 
 ---
 
@@ -132,12 +140,20 @@ Every current Indian senior care operator is providing **basic housing + basic h
 
 ---
 
-## 7. The Ask
+## 7. The Ask: ₹125 Cr Asset-Backed Finance
 
-We are curating a select cohort of **Founding Partners**:
-*   **Capital Partners:** For the Real Estate Asset (CapEx).
-*   **Technology Partners:** For the InjoyOS Validation (OpEx).
-*   **Academic Partners:** For the Innovation Lab (Credibility).
+We are raising **₹125 Crores** to fund Land Acquisition (₹50 Cr) and Phase 1 Construction (₹75 Cr).
+
+*   **Instrument:** Structure can be Debt or Equity.
+*   **Security:** First charge on 32-acre riverfront land and project receivables.
+*   **Exit:** 48 Months (Year 4).
+*   **Target ROI:** **50% Absolute Return** (1.5x MOIC).
+    *   Principal Return: ₹125 Cr
+    *   Profit Share: ₹62.5 Cr
+    *   **Total Payout: ₹187.5 Cr**
+
+**Downside Protection:**
+The total payout is covered by selling just **~50% of the inventory**. Even in a slow market, the asset coverage ratio is nearly **2x**.
 
 **Join us in building the Lighthouse.**
 
