@@ -2715,11 +2715,14 @@ ul {
   color: var(--accent);
   border-top: 2px solid var(--accent);
   position: relative;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .gap-table td:last-child {
-  background: rgba(183, 110, 121, 0.03);
-  font-weight: 700;
+  background: rgba(183, 110, 121, 0.04);
+  font-size: 1.5rem;
+  font-weight: 800;
   color: var(--accent);
 }
 
@@ -2739,13 +2742,14 @@ ul {
 /* Markers */
 .marker-yes {
   color: var(--success);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .marker-no {
-  color: #DC2626;
-  font-size: 1.2rem;
-  font-weight: 800;
+  color: #A0856E;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .marker-partial {
