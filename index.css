@@ -730,7 +730,7 @@ ul {
 
 .daily-counter__label {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 8px;
   font-weight: 500;
 }
@@ -748,12 +748,12 @@ ul {
   font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #FFFFFF;
 }
 
 .mini-stat__label {
   font-size: 0.75rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 4px;
 }
 
