@@ -1158,6 +1158,26 @@ ul {
   opacity: 0.9;
 }
 
+/* Confidence Banner in Light Sections */
+.section--cream .confidence-banner {
+  background: var(--bg-card);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: 4px solid var(--accent);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.section--cream .confidence-banner__text {
+  color: var(--text-muted) !important;
+}
+
+.section--cream .confidence-banner__text strong {
+  color: var(--text-primary) !important;
+}
+
+.section--cream .confidence-banner__text em {
+  color: var(--accent) !important;
+}
+
 /* ---------- Data Compliance Cards ---------- */
 .compliance-grid {
   display: grid;
@@ -1255,7 +1275,7 @@ ul {
 
 .compliance-card__challenge p {
   font-size: 0.85rem;
-  color: rgba(253, 251, 247, 0.8);
+  color: var(--text-muted);
   line-height: 1.65;
 }
 
@@ -1269,7 +1289,7 @@ ul {
 
 .compliance-card__solution li {
   font-size: 0.85rem;
-  color: rgba(253, 251, 247, 0.8);
+  color: var(--text-muted);
   line-height: 1.5;
   padding-left: 20px;
   position: relative;
