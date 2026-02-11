@@ -173,6 +173,26 @@ ul {
   color: var(--text-primary);
 }
 
+/* Force Text Inversion in Dark Sections */
+.section--dark p,
+.section--darker p,
+.section--dark li,
+.section--darker li,
+.section--dark .tech-card__desc,
+.section--darker .tech-card__desc,
+.section--dark .compliance-card__desc,
+.section--darker .compliance-card__desc,
+.section--dark .policy-card__desc,
+.section--darker .policy-card__desc {
+  color: rgba(253, 251, 247, 0.85);
+  /* High legibility off-white */
+}
+
+.section--dark strong,
+.section--darker strong {
+  color: #fff;
+}
+
 /* ---------- Subtle Pattern Overlays ---------- */
 .section--pattern::before {
   content: '';
@@ -1690,7 +1710,7 @@ ul {
 
 .footer__links a {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(253, 251, 247, 0.7);
   transition: color 0.3s;
 }
 
