@@ -8,60 +8,71 @@
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  /* Core Surfaces */
-  --bg-primary: #FFFFFF;
-  --bg-secondary: #F8F5F2;
-  --bg-tertiary: #FAF8F6;
+  /* Core Surfaces (Luxury Warmth) */
+  --bg-primary: #FDFBF7;
+  /* Sandstone */
+  --bg-secondary: #F2EFE9;
+  /* Darker Sand */
+  --bg-tertiary: #E8E4DD;
+  /* Deep Sand */
   --bg-card: #FFFFFF;
+  --bg-dark-blue: #1A2634;
+  /* Deep River Blue */
 
-  /* Accent — Rose Gold */
-  --accent: #B76E79;
-  --accent-hover: #C4838D;
-  --accent-deep: #A25B65;
-  --accent-warm: #D4A574;
+  /* Accent — Antique Bronze */
+  --accent: #C5A085;
+  --accent-hover: #B08D74;
+  --accent-deep: #8E735F;
+  --accent-warm: #D6B59C;
 
-  /* Secondary — Champagne */
-  --secondary: #8B7D6B;
-  --secondary-lt: #A69585;
+  /* Secondary — Sage & Slate */
+  --sage-green: #8F9E8B;
+  --slate-blue: #4A5568;
 
   /* Text */
-  --text-primary: #2D2926;
-  --text-muted: #8A7F78;
-  --text-slate: #5A4E4A;
+  --text-primary: #1A2634;
+  /* River Blue */
+  --text-inverse: #FDFBF7;
+  --text-muted: #6B7280;
+  --text-slate: #4A5568;
 
   /* Neutral */
   --warm-gray: #C8BEB5;
-  --bg-cream: #FDFBF9;
+  --bg-cream: #FDFBF7;
 
   /* State */
   --danger: #C75050;
-  --success: #5A9E6F;
+  --success: #608d6d;
+  /* Sage success */
 
   /* Typography */
-  --font-display: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'DM Sans', sans-serif;
 
   /* Layout */
   --section-pad: 120px 0;
-  --container: 1200px;
-  --radius-sm: 8px;
-  --radius-md: 16px;
-  --radius-lg: 20px;
+  --container: 1240px;
+  /* Slightly wider for luxury */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  /* Subtler curves */
   --radius-xl: 24px;
 
   /* Shared card tokens */
-  --card-border: 1px solid rgba(183, 110, 121, 0.08);
-  --card-shadow: 0 2px 20px rgba(0, 0, 0, 0.03);
-  --card-hover-border: rgba(183, 110, 121, 0.2);
-  --card-hover-shadow: 0 12px 40px rgba(183, 110, 121, 0.08);
+  --card-border: 1px solid rgba(26, 38, 52, 0.06);
+  --card-shadow: 0 10px 40px -10px rgba(26, 38, 52, 0.05);
+  /* Softer, deeper shadow */
+  --card-hover-border: rgba(197, 160, 133, 0.3);
+  --card-hover-shadow: 0 20px 60px -10px rgba(26, 38, 52, 0.08);
 
-  /* Accent opacity layers */
-  --accent-6: rgba(183, 110, 121, 0.06);
-  --accent-8: rgba(183, 110, 121, 0.08);
-  --accent-12: rgba(183, 110, 121, 0.12);
-  --accent-15: rgba(183, 110, 121, 0.15);
-  --accent-20: rgba(183, 110, 121, 0.20);
-  --accent-25: rgba(183, 110, 121, 0.25);
+  /* Accent opacity layers (Based on Bronze) */
+  --accent-6: rgba(197, 160, 133, 0.06);
+  --accent-8: rgba(197, 160, 133, 0.08);
+  --accent-12: rgba(197, 160, 133, 0.12);
+  --accent-15: rgba(197, 160, 133, 0.15);
+  --accent-20: rgba(197, 160, 133, 0.20);
+  --accent-25: rgba(197, 160, 133, 0.25);
   --warm-4: rgba(212, 165, 116, 0.03);
   --warm-8: rgba(212, 165, 116, 0.08);
   --warm-15: rgba(212, 165, 116, 0.15);
@@ -121,16 +132,44 @@ ul {
   position: relative;
 }
 
+/* Luxury Dark Mode (River Blue) */
 .section--dark {
-  background: var(--bg-primary);
+  background-color: var(--bg-dark-blue);
+  color: var(--text-inverse);
 }
 
+.section--dark h2,
+.section--dark h3,
+.section--dark .section-title,
+.section--dark .section-label {
+  color: var(--text-inverse);
+}
+
+.section--dark .section-subtitle {
+  color: rgba(253, 251, 247, 0.7);
+}
+
+/* Even Darker (for Tech/Market) */
 .section--darker {
-  background: var(--bg-secondary);
+  background-color: #121b25;
+  /* Deepest Blue */
+  color: var(--text-inverse);
 }
 
+.section--darker h2,
+.section--darker h3,
+.section--darker .section-title,
+.section--darker .section-label {
+  color: var(--text-inverse);
+}
+
+.section--darker .section-subtitle {
+  color: rgba(253, 251, 247, 0.6);
+}
+
+/* Sandstone Mode */
 .section--cream {
-  background: var(--bg-cream);
+  background: var(--bg-secondary);
   color: var(--text-primary);
 }
 
