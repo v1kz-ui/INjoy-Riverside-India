@@ -962,12 +962,6 @@ ul {
   margin-bottom: 12px;
 }
 
-.asset-feature-card__desc {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  line-height: 1.5;
-  margin-bottom: 12px;
-}
 
 .asset-feature-card__outcome {
   font-size: 0.75rem;
@@ -1116,7 +1110,6 @@ ul {
   color: var(--secondary);
 }
 
-/* Confidence Banner */
 /* Confidence Banner */
 .confidence-banner {
   margin-top: 48px;
@@ -1420,21 +1413,21 @@ ul {
   margin: 0 auto;
 }
 
-/* Competitive Matrix Headers */
-.gap-table th,
+/* Competitive Matrix Headers — use dark text for white table bg */
 .competitor-col {
-  font-size: 1rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
   font-weight: 700;
-  color: #FFFFFF;
-  padding: 16px;
+  color: var(--text-primary);
 }
 
 .competitor-col small {
   display: block;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  color: var(--text-muted);
   font-size: 0.75rem;
   margin-top: 4px;
+  opacity: 1;
 }
 
 /* ---------- Market Opportunity ---------- */
@@ -2251,7 +2244,8 @@ ul {
 
 /* Competitor Cols */
 .competitor-col {
-  color: var(--text-muted);
+  color: var(--text-primary);
+  font-weight: 700;
 }
 
 .competitor-col small {
@@ -2259,7 +2253,7 @@ ul {
   font-size: 0.7rem;
   font-weight: 500;
   margin-top: 4px;
-  opacity: 0.7;
+  color: var(--text-muted);
 }
 
 /* inJOY Highlight Col */
@@ -2296,8 +2290,9 @@ ul {
 }
 
 .marker-no {
-  color: #ddd;
+  color: #E05555;
   font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .marker-partial {
