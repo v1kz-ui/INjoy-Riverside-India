@@ -25,7 +25,7 @@ Our primary customer is not the retiree living on a pension. It is the **Global 
 *   **The Problem:** "My parents are alone in India. I have money, but I cannot buy them safety, dignity, or company from London/New York."
 *   **The Value Proposition:** for ₹1.2L ($1,500/mo), we offer a standard of care that would cost $6,000+ in the West. This arbitrage is our margin.
 
-### The "Tesla" Master Plan (Strategic Gap)
+### The "Formula 1" Master Plan (Strategic Gap)
 *   **The Question:** "How does a luxury project help the average Indian senior?"
 *   **The Answer:** Innovation trickles down.
     *   **Phase 1 (The Roadmap):** Build a high-margin, low-volume product (The Sanctuary) to fund R&D.
