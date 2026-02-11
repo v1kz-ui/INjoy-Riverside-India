@@ -194,6 +194,41 @@ ul {
   color: #fff;
 }
 
+/* ---- WHITE CARDS IN DARK SECTIONS: Force Dark Text ---- */
+/* These cards have white/cream backgrounds, so text must be dark */
+.section--dark .crisis-card,
+.section--darker .crisis-card,
+.section--dark .prediction-item,
+.section--darker .prediction-item,
+.section--dark .landscape-card,
+.section--darker .landscape-card,
+.section--dark .market-stat,
+.section--darker .market-stat,
+.section--dark .market-detail-card,
+.section--darker .market-detail-card {
+  color: var(--text-primary);
+}
+
+.section--dark .crisis-card p,
+.section--darker .crisis-card p,
+.section--dark .prediction-item p,
+.section--darker .prediction-item p,
+.section--dark .landscape-card p,
+.section--darker .landscape-card p,
+.section--dark .crisis-card li,
+.section--darker .crisis-card li,
+.section--dark .prediction-item li,
+.section--darker .prediction-item li {
+  color: var(--text-muted);
+}
+
+.section--dark .crisis-card strong,
+.section--darker .crisis-card strong,
+.section--dark .prediction-item strong,
+.section--darker .prediction-item strong {
+  color: var(--text-primary);
+}
+
 /* ---------- Subtle Pattern Overlays ---------- */
 .section--pattern::before {
   content: '';
@@ -1607,7 +1642,7 @@ ul {
 
 .biodome-feature {
   font-size: 0.8rem;
-  color: var(--secondary-lt);
+  color: var(--accent);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1681,7 +1716,7 @@ ul {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 800;
-  color: var(--secondary-lt);
+  color: var(--accent);
   min-width: 80px;
   text-align: center;
   line-height: 1;
