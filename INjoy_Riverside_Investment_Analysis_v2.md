@@ -45,6 +45,9 @@ Located on the banks of the **Sutlej River**, near the **IIT Ropar Innovation Co
     *   **Memory Care Village:** 112 units in Dutch-inspired "Rotundas" generating ₹40.32 Cr/year.
     *   **Villa Rental Portfolio:** Retained inventory ensuring long-term annuity income.
 
+### Operational Execution
+*   **Clinical Partners:** Strategic expansion of care through **partnerships with leading multi-specialty hospitals in Chandigarh**. This "Hub & Spoke" model ensures residents have 24/7 access to acute care within 45 minutes, while we manage chronic care on-site.
+
 ---
 
 ## 3. Engine 2: The InjoyOS Platform (The Venture Scaler)
@@ -67,6 +70,13 @@ We are partnering with clinical-grade wearable providers to validate the followi
 
 **The Long-Term Play:**
 Once validated at Riverside (the Lighthouse), **InjoyOS** becomes a licensable product for other senior care operators, hospitals, and home-care providers.
+
+### The "Intervention" Moat (Why we beat Apple/Google)
+Investors ask: "Won't the Apple Watch just do this?"
+**The Answer:** Apple provides *Information*. We provide *Intervention*.
+*   **Scenario:** An Apple Watch detects a fall. It sends a notification.
+*   **InJoy Scenario:** Our system detects a gait anomaly *before* the fall. If a fall occurs, **our on-site response team is deployed instantly**.
+*   **Defense:** Data without logistics is just anxiety. We own the "Last Mile" of Clinical Logistics.
 
 ---
 
@@ -110,11 +120,13 @@ You cannot have the data (for the tech) without the residents (in the real estat
 
 ### The Revenue Engine (at Stabilization)
 *   **Total Sales Revenue:** ₹725 Cr (from 495 Units).
-*   **Annual Recurring Revenue (ARR):** **₹190.12 Cr**, broken down as:
-    *   **Service Fees:** ₹108 Cr
-    *   **Memory Care:** ₹40.32 Cr
-    *   **Villa Rentals:** ₹41.80 Cr
-    *   **Medical Assessment:** ₹16.26 Cr
+*   **Gross Profit:** ~₹113 Cr.
+*   **Tech Funding Strategy:** Phase 2 (InjoyOS R&D) is **self-funded** from Phase 1 Real Estate profits. We are **not dependent** on external VC capital to build the core technology, significantly de-risking the "Venture" component.
+
+### Project Status & Regulatory
+*   **Land:** 32 Acres identified and agreements in place. Acquisition to be finalized via current fund raise.
+*   **Permitting:** CLU and RERA applications roadmap defined post-acquisition.
+*   **Data Compliance:** DPDP Act & ABDM framework fully integrated into architectural blueprints.
 
 ### Developer Retained Asset (The Golden Goose)
 We exit the investor in Year 4 but retain **230 Villas + Memory Care Village**.
