@@ -1691,7 +1691,8 @@ ul {
   display: block;
   font-size: 0.65rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: var(--text-muted) !important;
+  /* Force dark on white card */
   margin-top: 4px;
 }
 
@@ -1700,11 +1701,14 @@ ul {
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 4px;
+  color: var(--text-primary) !important;
+  /* Force dark on white card */
 }
 
 .prediction-item__info p {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-muted) !important;
+  /* Force dark on white card */
 }
 
 /* ---------- Inquiry / CTA ---------- */
