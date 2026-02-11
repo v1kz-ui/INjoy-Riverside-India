@@ -1255,7 +1255,7 @@ ul {
 
 .compliance-card__challenge p {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(253, 251, 247, 0.8);
   line-height: 1.65;
 }
 
@@ -1269,7 +1269,7 @@ ul {
 
 .compliance-card__solution li {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(253, 251, 247, 0.8);
   line-height: 1.5;
   padding-left: 20px;
   position: relative;
@@ -1376,26 +1376,45 @@ ul {
 .landscape-differentiator {
   margin-top: 48px;
   padding: 36px 40px;
-  background: linear-gradient(135deg, var(--accent-6), var(--warm-4));
-  border: 1px solid var(--accent-12);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
 .landscape-differentiator h3 {
   font-family: var(--font-display);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent-deep);
-  margin-bottom: 12px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 .landscape-differentiator p {
-  font-size: 0.95rem;
-  color: var(--text-slate);
+  font-size: 1.05rem;
+  color: rgba(253, 251, 247, 0.85);
+  /* Light text */
   line-height: 1.7;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+/* Competitive Matrix Headers */
+.gap-table th,
+.competitor-col {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 16px;
+}
+
+.competitor-col small {
+  display: block;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  margin-top: 4px;
 }
 
 /* ---------- Market Opportunity ---------- */
