@@ -1746,6 +1746,16 @@ ul {
   /* Force dark on white card */
 }
 
+.prediction-item__cite {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--accent) !important;
+  font-style: italic;
+  margin-top: 8px;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
 /* ---------- Inquiry / CTA ---------- */
 .inquiry-section {
   text-align: center;
